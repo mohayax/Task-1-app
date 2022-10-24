@@ -82,4 +82,14 @@ body {
   justify-content: center;
   margin-top: 10px;
 }
+@media (max-width:800px) {
+  .link_btn{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .container{
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
 

@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './index.css';
 import Profile from './components/Profile';
 import Links from './components/Links';
 import Social from './components/Social';
+import Footer from './components/Footer';
+
 function App() {
   const twitter = "https://twitter.com/mohayax88"
   const zuri = "https://training.zuri.team/";
@@ -22,6 +24,7 @@ function App() {
       <Links name="Background Check for Coders" url={background} id='pitch' /> 
       <Links name="Design Books" url={design} id='book__design' /> 
       <Social />
+      <Footer />
     </div>
   );
 }
