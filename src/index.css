@@ -7,10 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
 
 .container {
   display: flex;
@@ -37,7 +33,7 @@ body {
     height: 28px;
   box-sizing: border-box;
   
-    /* Auto layout */
+    
   
     display: flex;
     flex-direction: row;
@@ -46,19 +42,18 @@ body {
     padding: 24px 32px;
     gap: 8px;
   
-    /* width: 1152px; */
+    
     height: 76px;
   
-    /* Gray/200 */
+    
   
     background: #EAECF0;
-    /* Gray/200 */
   
     border: 1px solid #EAECF0;
     border-radius: 8px;
     margin-top: 10px;
   
-    /* Inside auto layout */
+    
   
     flex: none;
     order: 0;
@@ -77,3 +72,14 @@ body {
 #slack {
   visibility: hidden;
 }
+
+.icons{
+  display: flex;
+  align-items: center;
+  padding: 24px 0px;
+  gap: 64px;
+  background: #FFFFFF;
+  justify-content: center;
+  margin-top: 10px;
+}
+
