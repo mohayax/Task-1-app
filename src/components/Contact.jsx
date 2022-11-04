@@ -5,7 +5,8 @@ import '../components/Contact.css';
 function Contact() {
   const agrement = "You agree to providing your data to {name} who may contact you.";
   return (
-    <div className='contactContainer'>
+    <div className='container'>
+      <div className='contactContainer'>
         <article className='section_padding sOne'>
           <div className='contactMe'>Contact Me</div>
           <p>Hi there, contact me to ask me about anything you have in mind.</p>
@@ -31,6 +32,7 @@ function Contact() {
             <button id="btn__submit"><span>Send message</span></button>
           </form>
         </article>
+      </div>
     </div>
   )
 }
