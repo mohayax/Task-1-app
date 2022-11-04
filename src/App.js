@@ -23,6 +23,7 @@ function App() {
       <Links name="Python Books" url={python} id='book__python' /> 
       <Links name="Background Check for Coders" url={background} id='pitch' /> 
       <Links name="Design Books" url={design} id='book__design' /> 
+      <Links name="Contact Me" url={design} id='contact' /> 
       <Social />
       <Footer />
     </div>
