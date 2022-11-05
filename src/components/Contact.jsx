@@ -23,8 +23,11 @@ function Contact() {
                 <input type="text" id="last_name" placeholder='Enter your last name' />
               </div>
             </div>
-            <label>Email</label>
-            <input type="text" id="email" placeholder='yourname@email.com' />
+            <div className="email">
+              <label>Email</label>
+              <input type="text" id="email" placeholder='yourname@email.com' />
+            </div>
+            
 
             <label>Message</label>
             <textarea id="message" cols="30" rows="10" placeholder="Send me a message and I' ll reply you as soon as possible..."></textarea>

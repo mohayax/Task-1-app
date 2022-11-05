@@ -20,6 +20,18 @@
 }
 @media (max-width:800px) {
     .footer{
-        display: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        margin: auto;
+        padding: 32px 0px;
+        gap: 8px;
+     width: 343px;
+    height: 196px;
+    top: 886px;
     }
+
+
+
 }

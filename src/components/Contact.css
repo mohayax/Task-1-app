@@ -7,7 +7,7 @@
 
 .contactMe {
     width: 448px;
-     height: 44px;
+    height: 44px;
         font-weight: 600;
         font-size: 36px;
         line-height: 44px;
@@ -141,4 +141,57 @@ article label{
         font-size: 16px;
         line-height: 24px;
         color: #FFFFFF;
+}
+
+@media (max-width:800px){
+    .contactContainer{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 343px;
+    }
+
+    .parent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #first_name,
+    #last_name{
+        flex-direction: column;
+    }
+
+    #btn__submit {
+        width: 343px;
+        height: 48px;
+        padding: 12px 20px;
+        margin-top: 40px;
+    }
+
+    #message  {
+        width: 343px;
+        height: 132px;
+    }
+    .email{
+        margin: 30px 0;
+    }
+    #email {
+        width: 343px;
+    }
+
+    #check p {
+        width: 311px;
+    }
+
+    .sOne p {
+        width: 311px;
+    }
+    form{
+        margin-top: 40px;
+    }
+
+    .contactMe{
+        width: 343px;
+    }
 }
